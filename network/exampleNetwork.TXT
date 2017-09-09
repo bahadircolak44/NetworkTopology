@@ -1,0 +1,870 @@
+[
+  {
+    "data": {
+      "id": 1,
+      "label": "IP Infrastructure",
+      "type": "IPNetworkLayer"
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "id": 2,
+      "label": "Subnet/servernet",
+      "type": "Subnet"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.1"
+        },
+        {
+          "address": "10.0.2.6"
+        }
+      ],
+      "id": 3,
+      "label": "3620-Cisco Router Firewall",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "id": 4,
+      "label": "Switch",
+      "type": "Switch"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.2"
+        }
+      ],
+      "id": 5,
+      "label": "AP1200-2",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.3"
+        }
+      ],
+      "id": 6,
+      "label": "HP Color LaserJet CP6015",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.4"
+        }
+      ],
+      "id": 7,
+      "label": "Cisco 2811 WLC",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.5"
+        }
+      ],
+      "id": 8,
+      "label": "Apache HTTP Server",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.7"
+        },
+        {
+          "address": "10.0.2.8"
+        }
+      ],
+      "id": 9,
+      "label": "Cisco 2821 Router Firewall",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "id": 10,
+      "label": "Switch1",
+      "type": "Switch"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.9"
+        }
+      ],
+      "id": 11,
+      "label": "DAFIS-ST2540-ControllerA",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.10"
+        }
+      ],
+      "id": 12,
+      "label": "MySQL Server",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.16"
+        },
+        {
+          "address": "10.0.2.17"
+        },
+        {
+          "address": "10.0.2.11"
+        },
+        {
+          "address": "111.111.111.117"
+        }
+      ],
+      "id": 13,
+      "label": "MAINGATE_Router",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "id": 14,
+      "label": "Switch2",
+      "type": "Switch"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.12"
+        }
+      ],
+      "id": 15,
+      "label": "MFC-9460CDN",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.13"
+        }
+      ],
+      "id": 16,
+      "label": "Sun StorageTek SL500",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.14"
+        }
+      ],
+      "id": 17,
+      "label": "UCS-MGMT-Start",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 2,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.15"
+        }
+      ],
+      "id": 18,
+      "label": "AP1200-1",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "id": 19,
+      "label": "TargetSubnet",
+      "type": "Subnet"
+    }
+  },
+  {
+    "data": {
+      "parent": 19,
+      "id": 20,
+      "label": "Switch",
+      "type": "Switch"
+    }
+  },
+  {
+    "data": {
+      "parent": 19,
+      "networkinterfaces": [
+        {
+          "address": "120.110.211.2"
+        }
+      ],
+      "id": 21,
+      "label": "MP3500-2",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 19,
+      "networkinterfaces": [
+        {
+          "address": "120.10.211.2"
+        }
+      ],
+      "id": 22,
+      "label": "MP3500-2",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 19,
+      "networkinterfaces": [
+        {
+          "address": "120.110.211.3"
+        }
+      ],
+      "id": 23,
+      "label": "Cisco UCS B230 M1 Server",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 19,
+      "id": 24,
+      "label": "Switch4",
+      "type": "Switch"
+    }
+  },
+  {
+    "data": {
+      "parent": 19,
+      "networkinterfaces": [
+        {
+          "address": "120.110.211.2"
+        }
+      ],
+      "id": 25,
+      "label": "MP3500-2-Test",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 19,
+      "networkinterfaces": [
+        {
+          "address": "120.110.211.5"
+        }
+      ],
+      "id": 26,
+      "label": "MP3500-1",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 19,
+      "networkinterfaces": [
+        {
+          "address": "120.110.211.6"
+        }
+      ],
+      "id": 27,
+      "label": "MP3500-3",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "id": 28,
+      "label": "ExternSubnet",
+      "type": "Subnet"
+    }
+  },
+  {
+    "data": {
+      "parent": 28,
+      "id": 29,
+      "label": "Switch",
+      "type": "Switch"
+    }
+  },{
+    "data": {
+      "parent": 28,
+      "networkinterfaces": [
+        {
+          "address": "120.11.211.3"
+        }
+      ],
+      "id": 30,
+      "label": "MP3500-30-Test",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 28,
+      "networkinterfaces": [
+        {
+          "address": "101.98.112.2"
+        }
+      ],
+      "id": 31,
+      "label": "Attacker PC-001",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 28,
+      "networkinterfaces": [
+        {
+          "address": "101.98.112.3"
+        }
+      ],
+      "id": 32,
+      "label": "PC-XI2",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 28,
+      "id": 33,
+      "label": "Switch3",
+      "type": "Switch"
+    }
+  },
+  {
+    "data": {
+      "parent": 28,
+      "networkinterfaces": [
+        {
+          "address": "101.98.112.5"
+        }
+      ],
+      "id": 34,
+      "label": "PC-XI1",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 28,
+      "networkinterfaces": [
+        {
+          "address": "101.98.112.6"
+        }
+      ],
+      "id": 35,
+      "label": "MySQL Server 2",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "id": 36,
+      "label": "Internet",
+      "type": "Subnet"
+    }
+  },
+  {
+    "data": {
+      "parent": 36,
+      "networkinterfaces": [
+        {
+          "address": "111.111.111.112"
+        },
+        {
+          "address": "111.111.111.113"
+        },
+        {
+          "address": "111.111.111.114"
+        },
+        {
+          "address": "111.111.111.115"
+        }
+      ],
+      "id": 37,
+      "label": "CoreRouter1",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 36,
+      "networkinterfaces": [
+        {
+          "address": "10.0.2.16"
+        },
+        {
+          "address": "10.0.2.17"
+        },
+        {
+          "address": "10.0.2.11"
+        },
+        {
+          "address": "111.111.111.117"
+        }
+      ],
+      "id": 38,
+      "label": "MAINGATE_Router",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 36,
+      "networkinterfaces": [
+        {
+          "address": "120.110.211.1"
+        },
+        {
+          "address": "111.111.111.119"
+        },
+        {
+          "address": "120.110.211.20"
+        }
+      ],
+      "id": 39,
+      "label": "Cisco 2811 Router",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 36,
+      "networkinterfaces": [
+        {
+          "address": "120.110.211.4"
+        },
+        {
+          "address": "111.111.111.118"
+        },
+        {
+          "address": "120.110.211.21"
+        }
+      ],
+      "id": 40,
+      "label": "AccessRouter",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 36,
+      "networkinterfaces": [
+        {
+          "address": "111.111.111.120"
+        },
+        {
+          "address": "111.111.111.116"
+        }
+      ],
+      "id": 41,
+      "label": "CoreRouter 2",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 36,
+      "networkinterfaces": [
+        {
+          "address": "101.98.112.1"
+        },
+        {
+          "address": "101.98.112.4"
+        },
+        {
+          "address": "111.111.111.121"
+        }
+      ],
+      "id": 42,
+      "label": "3620-Cisco Router 2",
+      "type": "Device"
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.1",
+      "targetLabel": "",
+      "id": 43,
+      "source": 3,
+      "target": 4
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.2",
+      "targetLabel": "",
+      "id": 44,
+      "source": 5,
+      "target": 4
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.3",
+      "targetLabel": "",
+      "id": 45,
+      "source": 6,
+      "target": 4
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.4",
+      "targetLabel": "",
+      "id": 46,
+      "source": 7,
+      "target": 4
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.5",
+      "targetLabel": "",
+      "id": 47,
+      "source": 8,
+      "target": 4
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.6",
+      "targetLabel": "10.0.2.16",
+      "id": 48,
+      "source": 3,
+      "target": 38
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.7",
+      "targetLabel": "10.0.2.17",
+      "id": 49,
+      "source": 9,
+      "target": 38
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.8",
+      "targetLabel": "",
+      "id": 50,
+      "source": 9,
+      "target": 10
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.9",
+      "targetLabel": "",
+      "id": 51,
+      "source": 11,
+      "target": 10
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.10",
+      "targetLabel": "",
+      "id": 52,
+      "source": 12,
+      "target": 10
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.11",
+      "targetLabel": "",
+      "id": 53,
+      "source": 38,
+      "target": 14
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.12",
+      "targetLabel": "",
+      "id": 54,
+      "source": 15,
+      "target": 14
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.13",
+      "targetLabel": "",
+      "id": 55,
+      "source": 16,
+      "target": 14
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.14",
+      "targetLabel": "",
+      "id": 56,
+      "source": 17,
+      "target": 14
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "10.0.2.15",
+      "targetLabel": "",
+      "id": 57,
+      "source": 18,
+      "target": 14
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "120.110.211.1",
+      "targetLabel": "",
+      "id": 58,
+      "source": 39,
+      "target": 20
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "120.110.211.2",
+      "targetLabel": "",
+      "id": 59,
+      "source": 22,
+      "target": 20
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "120.110.211.3",
+      "targetLabel": "",
+      "id": 60,
+      "source": 23,
+      "target": 20
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "120.110.211.4",
+      "targetLabel": "",
+      "id": 61,
+      "source": 40,
+      "target": 24
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "120.110.211.5",
+      "targetLabel": "",
+      "id": 62,
+      "source": 26,
+      "target": 24
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "120.110.211.6",
+      "targetLabel": "",
+      "id": 63,
+      "source": 27,
+      "target": 24
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "101.98.112.1",
+      "targetLabel": "",
+      "id": 64,
+      "source": 40,
+      "target": 29
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "101.98.112.2",
+      "targetLabel": "",
+      "id": 65,
+      "source": 31,
+      "target": 29
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "101.98.112.3",
+      "targetLabel": "",
+      "id": 66,
+      "source": 32,
+      "target": 29
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "101.98.112.4",
+      "targetLabel": "",
+      "id": 67,
+      "source": 40,
+      "target": 33
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "101.98.112.5",
+      "targetLabel": "",
+      "id": 68,
+      "source": 34,
+      "target": 33
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "101.98.112.6",
+      "targetLabel": "",
+      "id": 69,
+      "source": 35,
+      "target": 33
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "111.111.111.121",
+      "targetLabel": "111.111.111.120",
+      "id": 70,
+      "source": 40,
+      "target": 41
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "111.111.111.117",
+      "targetLabel": "111.111.111.112",
+      "id": 71,
+      "source": 38,
+      "target": 37
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "111.111.111.119",
+      "targetLabel": "111.111.111.113",
+      "id": 72,
+      "source": 39,
+      "target": 37
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "111.111.111.118",
+      "targetLabel": "111.111.111.114",
+      "id": 73,
+      "source": 40,
+      "target": 37
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "111.111.111.116",
+      "targetLabel": "111.111.111.115",
+      "id": 74,
+      "source": 41,
+      "target": 37
+    }
+  },
+  {
+    "data": {
+      "parent": 1,
+      "sourceLabel": "120.110.211.20",
+      "targetLabel": "120.110.211.21",
+      "id": 75,
+      "source": 39,
+      "target": 40
+    }
+  }
+]
