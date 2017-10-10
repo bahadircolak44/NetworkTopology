@@ -1,6 +1,11 @@
 # NetworkTopology
 Network Topology Map
 You may use http-server
+
+[![layout.jpg](https://s1.postimg.org/45eqiq07kf/layout.jpg)](https://postimg.org/image/3d1v0zjlu3/)
+
+
+
 Installation via npm:
 
  npm install http-server -g
